@@ -32,16 +32,26 @@ public class GenericStack<Object>{
     public void push (Object X){
 
     }
+
     /**
      * Removes the last object from the stack
      * and returns the object
      *
      * @return The item removed from the top of the stack.
+     * @throws RuntimeException if the stack is empty.
      */
     public Object pop (){
+        if(top == 0)
+            throw new RuntimeException("No object found in the stack to pop");
+
         return stackObjects.remove (--top);
+
     }
 
+    /**
+     * Check if this stack is empty.
+     * @return false if the stack has at least one object; true, otherwise.
+     */
     public boolean isEmpty (){
         return true;
     }
