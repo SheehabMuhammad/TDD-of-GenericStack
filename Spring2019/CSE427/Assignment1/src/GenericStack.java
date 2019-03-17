@@ -30,7 +30,7 @@ public class GenericStack<Object>{
      * @param X the item to be inserted
      */
     public void push (Object X){
-
+        stackObjects.add(top++, X);
     }
 
     /**
@@ -43,7 +43,6 @@ public class GenericStack<Object>{
     public Object pop (){
         if(top == 0)
             throw new RuntimeException("No object found in the stack to pop");
-
         return stackObjects.remove (--top);
 
     }
@@ -53,7 +52,7 @@ public class GenericStack<Object>{
      * @return false if the stack has at least one object; true, otherwise.
      */
     public boolean isEmpty (){
-        return true;
+        return stackObjects.isEmpty();
     }
 
 
