@@ -1,24 +1,35 @@
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class GenericStackTest {
 
-    @org.junit.jupiter.api.BeforeEach
+    private GenericStack<String> testStack;
+
+    @BeforeEach
     void setUp() {
+        testStack = new GenericStack<String>();
     }
 
-    @org.junit.jupiter.api.AfterEach
+    @AfterEach
     void tearDown() {
+        
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void push() {
+
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void pop() {
+
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void isEmpty() {
+        assertEquals(true, testStack.isEmpty());
     }
 }
