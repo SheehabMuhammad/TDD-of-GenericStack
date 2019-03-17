@@ -38,11 +38,9 @@ public class GenericStack<Object>{
      *
      * @return The item removed from the top of the stack.
      */
-
-    /*
     public Object pop (){
-        return Object;
-    }*/
+        return stackObjects.remove (--top);
+    }
 
     public boolean isEmpty (){
         return true;

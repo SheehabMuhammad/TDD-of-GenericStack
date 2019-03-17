@@ -20,13 +20,21 @@ class GenericStackTest {
 
     @Test
     void push() {
-
+        /**
+         * first push and then pop an object to check the
+         * push method
+         * adds the object to the stack properly.
+         */
+        testStack.push("Test String");
+        assertEquals("Test String", testStack.pop());
     }
 
     @Test
     void pop() {
         /**
-         * first push and then pop an object to check the pop method returns the right object.
+         * first push and then pop an object to check the
+         * pop method
+         * returns the right object.
          */
         testStack.push("Test String");
         assertEquals("Test String", testStack.pop());
@@ -39,13 +47,14 @@ class GenericStackTest {
          * Adding an object to check for un-empty stack.
          */
         testStack.push("Test String");
-        assertEquals(false, testStack.isEmpty());
+        assertFalse(testStack.isEmpty());
+
 
         /**
          * Poping an object to check for empty stack.
          */
         testStack.pop();
-        assertEquals(true, testStack.isEmpty());
+        assertTrue(testStack.isEmpty());
 
     }
 }
