@@ -15,7 +15,7 @@ class GenericStackTest {
 
     @AfterEach
     void tearDown() {
-        
+
     }
 
     @Test
@@ -25,11 +25,27 @@ class GenericStackTest {
 
     @Test
     void pop() {
+        /**
+         * first push and then pop an object to check the pop method returns the right object.
+         */
+        testStack.push("Test String");
+        assertEquals("Test String", testStack.pop());
 
     }
 
     @Test
     void isEmpty() {
+        /**
+         * Adding an object to check for un-empty stack.
+         */
+        testStack.push("Test String");
+        assertEquals(false, testStack.isEmpty());
+
+        /**
+         * Poping an object to check for empty stack.
+         */
+        testStack.pop();
         assertEquals(true, testStack.isEmpty());
+
     }
 }
