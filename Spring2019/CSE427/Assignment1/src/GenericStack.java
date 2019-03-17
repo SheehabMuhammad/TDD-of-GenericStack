@@ -8,7 +8,6 @@ public class GenericStack<Object>{
      */
     private int top;
 
-
     /**
      * stackObjects contains the objects of the stack
      *
@@ -54,6 +53,5 @@ public class GenericStack<Object>{
     public boolean isEmpty (){
         return stackObjects.isEmpty();
     }
-
 
 }

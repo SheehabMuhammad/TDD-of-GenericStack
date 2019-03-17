@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1b3a631e-09c6-47c1-84ea-b3bcd12ff1da" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/GenericStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenericStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericStackTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GenericStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#620#621#0" expanded="true" />
                 <element signature="e#647#648#0" expanded="true" />
@@ -28,14 +29,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GenericStackTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="195">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
               <folding>
                 <element signature="e#280#281#0" expanded="true" />
                 <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,9 +71,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
     <option name="y" value="23" />
-    <option name="width" value="1400" />
+    <option name="width" value="1440" />
     <option name="height" value="837" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -101,7 +103,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552824462667" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552824677286" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -158,14 +160,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552819230895</updated>
-      <workItem from="1552819235985" duration="3535000" />
+      <workItem from="1552819235985" duration="3747000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GenericStackTest - 2019.03.17 at 17h 13m 42s.xml">
-      <configuration name="GenericStackTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GenericStackTest - 2019.03.17 at 17h 24m 40s.xml">
       <configuration name="GenericStackTest" configurationId="JUnit" />
     </history-entry>
@@ -184,12 +183,24 @@
     <history-entry file="GenericStackTest - 2019.03.17 at 18h 06m 08s.xml">
       <configuration name="GenericStackTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GenericStackTest - 2019.03.17 at 18h 08m 26s.xml">
+      <configuration name="GenericStackTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenericStackTest - 2019.03.17 at 18h 08m 39s.xml">
+      <configuration name="GenericStackTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenericStackTest - 2019.03.17 at 18h 09m 46s.xml">
+      <configuration name="GenericStackTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenericStackTest - 2019.03.17 at 18h 10m 36s.xml">
+      <configuration name="GenericStackTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3535000" />
+    <option name="totallyTimeSpent" value="3747000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="23" width="1400" height="837" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="837" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -197,7 +208,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24248926" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.32885906" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -230,26 +241,28 @@
     <entry file="file://$PROJECT_DIR$/Assignment1.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GenericStackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GenericStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#620#621#0" expanded="true" />
             <element signature="e#647#648#0" expanded="true" />
             <element signature="e#229#230#0" expanded="true" />
             <element signature="e#256#257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GenericStackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
           </folding>
         </state>
       </provider>

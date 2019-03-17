@@ -15,7 +15,7 @@ class GenericStackTest {
 
     @AfterEach
     void tearDown() {
-
+        testStack = null;
     }
 
     @Test
