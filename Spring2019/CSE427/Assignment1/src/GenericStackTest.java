@@ -1,6 +1,11 @@
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.*;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
+
+import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -18,28 +23,62 @@ class GenericStackTest {
         testStack = null;
     }
 
-    @Test
-    void push() {
+
+    @ParameterizedTest
+    @MethodSource("providePartitionedValueForPushTest")
+    void pushTest(String input, String expected) {
+
         /**
-         * first push and then pop an object to check the
-         * push method
-         * adds the object to the stack properly.
+         * push an object to the stack and then pop with for assertion to check
+         *
          */
-        testStack.push("Test String");
-        assertEquals("Test String", testStack.pop());
+        testStack.push(input);
+        assertEquals(expected, testStack.pop());
     }
 
-    @Test
-    void pop() {
-        /**
-         * first push and then pop an object to check the
-         * pop method
-         * returns the right object.
-         */
-        testStack.push("Test String");
-        assertEquals("Test String", testStack.pop());
+    /**
+     * Test case using input space by partitioning the variables into block for push.
+     * null values or valid values
+     *
+     */
 
+    private static Stream<Arguments> providePartitionedValueForPushTest() {
+        return Stream.of(
+                Arguments.of("abc", "abc"),
+                Arguments.of(null, null),
+                Arguments.of("edf", "edf"),
+                Arguments.of(null, null)
+        );
     }
+
+
+    @ParameterizedTest
+    @MethodSource("providePartitionedValueForPopTest")
+    void popTest(String input, String expected) {
+
+        /**
+         * pop an object to the stack for assertion to check
+         * if returns the right object
+         *
+         */
+        testStack.push(input);
+        assertEquals(expected, testStack.pop());
+    }
+
+    /**
+     * Test case using input space by partitioning the variables into block for pop.
+     * null values or valid values
+     *
+     */
+    private static Stream<Arguments> providePartitionedValueForPopTest() {
+        return Stream.of(
+                Arguments.of("abc", "abc"),
+                Arguments.of(null, null),
+                Arguments.of(null, null)
+        );
+    }
+    
+
 
     @Test
     void isEmpty() {
