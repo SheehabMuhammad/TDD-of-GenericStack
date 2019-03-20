@@ -114,12 +114,13 @@ class GenericStackTest {
      */
     @Test
     void isEmpty() {
+
         /**
          * Adding an object to check for un-empty stack.
          */
         testStack.push("Test String");
         assertFalse(testStack.isEmpty());
-
+        
         /**
          * Cleaning up the stack check for empty stack.
          */
