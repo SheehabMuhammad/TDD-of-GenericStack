@@ -77,7 +77,21 @@ class GenericStackTest {
                 Arguments.of(null, null)
         );
     }
-    
+
+
+
+    /**
+     * Test case for pop when no element is present in stack
+     * should pass for exception
+     * @Throws RuntimeException as the stack is empty.
+     */
+    @Test
+    void popTestForExceptionWhenNoElementIsPresentInStack() {
+        Exception exception = assertThrows(RuntimeException.class, () ->  testStack.pop());
+        assertEquals("No object found in the stack to pop", exception.getMessage());
+    }
+
+
 
 
     @Test
@@ -87,7 +101,6 @@ class GenericStackTest {
          */
         testStack.push("Test String");
         assertFalse(testStack.isEmpty());
-
 
         /**
          * Poping an object to check for empty stack.
