@@ -4,9 +4,9 @@ The test codes can be found at: Spring2019/CSE427/Assignment1/src/
 
 List of all variables:
 
-Objecx X
-int top                 //State variable
-ArrayList stackObjects     //State variable
+01. Objecx X
+02. int top                 //State variable
+03. ArrayList stackObjects     //State variable
 
 
        b)   Characteristics of Variables:
