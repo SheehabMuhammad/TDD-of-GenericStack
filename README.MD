@@ -1,22 +1,22 @@
-Test Driven Development of Java GenericStack Class.
+# Test Driven Development of Java GenericStack Class.
 
-The test codes can be found at: Spring2019/CSE427/Assignment1/src/
+**The test codes can be found at: Spring2019/CSE427/Assignment1/src/**
 
-a)   List of all variables:
+### a)   List of all variables:
 
 01. Objecx X
 02. int top                 
 03. ArrayList stackObjects
 
 
-b)   Characteristics of Variables:
+### b)   Characteristics of Variables:
         
 Objecx X can be null or any valid object.
 int top can be 0 if stack is empty or 1+ if not.
 ArrayList stackObjects can have 0 object, or null object or any number of valid objects.
 
 
-c)   Characteristics of inputs:
+### c)   Characteristics of inputs:
 
 Characteristics of input Object X is whether it is null or not.
         True if null, i.e: X = null
@@ -25,7 +25,7 @@ Characteristics of input Object X is whether it is null or not.
 
 
 
-d)   Blocks of the characteristics after partitioning:
+### d)   Blocks of the characteristics after partitioning:
         
 Partition
 b1
@@ -55,7 +55,7 @@ Q1: Value of the int top.
 
 
  
-e)   Values of each block:
+### e)   Values of each block:
     
 Parameter
 b1
